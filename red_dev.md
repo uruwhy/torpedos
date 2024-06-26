@@ -1,6 +1,13 @@
 # Red Development Cheatsheet
 
-## PE Format Resources
+## PE Format
+
+### IAT
+```
+dumpbin /imports path\to\executable
+```
+
+### Resources
 - [A dive into the PE file format](https://0xrick.github.io/win-internals/pe1/)
 - [PE Internals Part 1: A few words about Export Address Table](https://ferreirasc.github.io/PE-Export-Address-Table/)
 - [Exploring the Export Table](https://dev.to/wireless90/exploring-the-export-table-windows-pe-internals-4l47)
