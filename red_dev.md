@@ -23,3 +23,6 @@ Cross-compile Windows on Linux
 rustup target add x86_64-pc-windows-gnu
 cargo build --target x86_64-pc-windows-gnu
 ```
+
+## Windows Documentation
+- [Data type - typedefs and sizes](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
