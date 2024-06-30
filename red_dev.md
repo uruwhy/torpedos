@@ -12,6 +12,12 @@ dumpbin /imports path\to\executable
 - [PE Internals Part 1: A few words about Export Address Table](https://ferreirasc.github.io/PE-Export-Address-Table/)
 - [Exploring the Export Table](https://dev.to/wireless90/exploring-the-export-table-windows-pe-internals-4l47)
 
+## WinDBG
+Install via PowerShell:
+```powershell
+winget install Microsoft.WinDbg
+```
+
 ## GitHub Tricks
 Push as a different user (using different SSH key):
 ```
