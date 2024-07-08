@@ -87,6 +87,12 @@ Available sudo options
 sudo -l
 ```
 
+# Post-Exploitation Recon (Windows)
+Get the full command line for a process (PowerShell)
+```PowerShell
+gwmi win32_process | Format-Table -Property ProcessId,commandline | findstr targetprocessname|pid
+```
+
 # Credential Access
 ## Password Hashes
 Lookup hash type:
