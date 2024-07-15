@@ -15,7 +15,17 @@ Tools to install:
 - [Windbg](https://aka.ms/windbg/download)
 - [x64dbg](https://github.com/x64dbg/x64dbg)
 - NASM: `winget install nasm -i`
-  - Add path: `C:\Program Files\NASM`, verify with `nasm --version` 
+  - Add to path: `C:\Program Files\NASM`, verify with `nasm --version` 
+- msys2: `winget install MSYS2.MSYS2`
+- [mingw](https://code.visualstudio.com/docs/cpp/config-mingw):
+  - From msys2: `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain`
+  - Add to path: `C:\msys64\ucrt64\bin`
+  - Verify with:
+  ```cmd
+  gcc --version
+  g++ --version
+  gdb --version
+  ``` 
 
 ## PE Format
 
