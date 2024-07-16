@@ -25,7 +25,8 @@ Tools to install:
   gcc --version
   g++ --version
   gdb --version
-  ``` 
+  ```
+- [Rust](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
 ## PE Format
 
