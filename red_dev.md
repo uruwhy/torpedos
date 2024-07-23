@@ -3,6 +3,7 @@
 ## Dev Box Setup
 [Win11 VM from MSFT](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
 - [Optional debloat](https://github.com/Raphire/Win11Debloat)
+- Note - disable 3d acceleration, otherwise a lot of applications like WinDBG will have their GUIs messed up
 
 Tools to install:
 - [git](https://git-scm.com/download/win)
